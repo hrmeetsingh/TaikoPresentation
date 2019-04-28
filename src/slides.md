@@ -185,7 +185,7 @@ write("something", into(textField({placeholder: "Username"})))
 Using XPaths
 
 ```bash
-click(checkbox(near("Username")))
+click($("//input[name=`button_name`]"))
 ```
 
 ---
