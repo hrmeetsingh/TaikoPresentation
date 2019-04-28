@@ -1,0 +1,3 @@
+cssFiles: ["remarkStyle.css"]
+remarkConfig:
+  slideNumberFormat: "Slide %current%"
