@@ -44,6 +44,89 @@ Divya Rakhiani]
 ---
 
 layout: false
+
+.top-row[
+.pic[
+<img src="assets/harmeet.jpg" style="max-width:90%; max-height:90%;">
+]
+.bio[
+
+## Harmeet Singh
+
+### Senior Consultant
+
+### harmeets@thoughtworks.com
+
+<img src="assets/twitter.png"> @ErHarmeet
+
+<img src="assets/github.svg"> hrmeetsingh
+
+]
+]
+.bottom-row[
+.pic[
+<img src="assets/divya.jpeg" style="max-width:90%; max-height:90%">
+]
+.bio[
+
+## Divya Rakhiani
+
+### Senior Consultant
+
+### rdivya@thoughtworks.com
+
+<img src="assets/github.svg"> rakhid
+
+]
+
+]
+
+---
+
+## Issues with Web Automation
+
+- ### Slow
+- ### Flaky
+- ### Complicated setup
+
+### Automation QAs Nightmares
+
+- ### Stale element exception
+- ### Cannot find element
+- ### Unable to connect to host 127.0.0.1 on port 7055 after 45000 ms
+
+---
+
+## Web Automation
+
+### How Selenium works
+
+.middle[
+<img src="assets/Selenium_stack.jpeg" width=90% style="margin-top:4em">
+]
+
+---
+
+## Web Automation
+
+### How ChromeDevtools works
+
+<img src="assets/Taiko_1.jpg" width=90% style="margin-top:4em">
+
+---
+
+## XHR and AJAX - Source of flakiness
+
+<img src="assets/Ajax.gif" width=80% style="margin-top: 3em; margin-left: 3em;">
+
+---
+
+class: center,middle
+
+# Introducing Taiko
+
+---
+
 class: center,middle
 #Not this Taiko
 
@@ -53,7 +136,7 @@ class: center,middle
 
 class: center,middle
 
-## What is it then?
+# What is it then?
 
 <img src="https://gauge.org/assets/images/blog/gauge_blog_image_introducing_taiko.jpg" width=80%>
 
@@ -67,10 +150,13 @@ class: center,middle
 
 .right-column[
 
-- ## Open source browser automation tool
-- ## An npm library
-- ## Built on Chrome DevTools API
-- ## Free for use
+- ### Open source browser automation tool
+- ### An npm library
+- ### Built on Chrome DevTools API
+- ### Inspired by Helium and Puppeteer
+- ### Integration with test runners like Jest, Jasmine and Gauge
+- ### Provides REPL
+- ### Free to use and extend
 
 ]
 
@@ -87,7 +173,7 @@ class: center,middle
 .right-column[
 
 - ## The team behind Gauge by ThoughtWorks
-- ## A growing community
+- ## A growing community of Devs and QAs
 
 ]
 
@@ -138,6 +224,8 @@ npm add taiko --save-dev
 ```bash
 yarn add taiko --dev
 ```
+
+**yarn** and **npm** are the most widely used package managers for JavaScript
 
 ---
 
@@ -217,6 +305,8 @@ click($("//input[name=`button_name`]"))
 ```
 
 ---
+
+class: title-underline
 
 ### XHR and Dynamic Content Handling
 

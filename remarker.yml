@@ -1,4 +1,5 @@
 cssFiles: ["remarkStyle.css"]
 dest: "../"
+assets: ["assets"]
 remarkConfig:
   slideNumberFormat: "Slide %current%"
